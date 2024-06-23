@@ -1,7 +1,8 @@
 Minimalist Assignment
 ======================
 Netlify link : https://ishaq-minimalist.netlify.app/
-functionalityu added
+
+functionalities added
 =====================
 1.Popup
 2.Responsiveness
@@ -11,6 +12,9 @@ Technologies used
 =====================
 1.React
 2.javascript
+3.CSS
+4.Css - media queries
+5.React Hooks
 
 
 Third party librariess
