@@ -9,8 +9,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 150px;
-  padding-bottom: 150px;
+  /* padding: 150px;
+  padding-bottom: 150px; */
   
   
   
@@ -24,10 +24,10 @@
   background: #fff;
   padding: 20px;
   border-radius: 10px;
-  position: relative;
+  /* position: relative; */
   width: 100%;
   color: #333; /* Text color from PDF */
-  height: 80%;
+  height: 50%;
   overflow: scroll;
 }
 
