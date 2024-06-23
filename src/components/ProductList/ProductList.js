@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProductList.css';
 import border from '../Assets/border.png'
-import innercard from '../Assets/innercard.png'
+// import innercard from '../Assets/innercard.png'
 
 const products = [
   { id: 1, name: 'Raju Rassibomb', description: '10 hand-hurting pieces of rassi bombs'},
@@ -17,11 +17,11 @@ const ProductList = ({ onProductClick }) => (
     </div>
     {products.map(product => (
         <div key={product.id} className="product-item" onClick={() => onProductClick(product)}>
-            <img className="card-img" src={innercard} alt="inner-card" />
+            <img className="card-img" src="https://res.cloudinary.com/dpetyh8cc/image/upload/v1719145519/innercard_kpmhkr.png" alt="inner-card" />
             <div className='card-name'>
-        <h2>{product.name}</h2>
+                <h2>{product.name}</h2>
                 <button className='card-btn'>Quick View</button>
-                </div>
+            </div>
       </div>
     ))}
   </div>

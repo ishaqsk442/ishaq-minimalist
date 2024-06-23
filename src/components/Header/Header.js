@@ -8,9 +8,9 @@ const Header = () => (
         <div className="logo-div">
             <img src={logo} alt="Firefly Logo"  className='logo'/>
         </div>
-        <div className='para-button'>
-            <p className='para'>The choise is yours.<br></br> because they dont have one.</p>
-            <button className='btn'>Quick View</button>
+        <div className="para-button">
+            <p className="para">The choise is yours.<br></br> because they dont have one.</p>
+            <button className="btn">Quick View</button>
 
         </div>
         
