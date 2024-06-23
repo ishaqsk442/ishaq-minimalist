@@ -7,6 +7,9 @@ import ProductList from './components/ProductList/ProductList';
 import Footer from './components/Footer/Footer';
 // import ProductPopup from './components/ProductPopup';
 import ProductPopup from './components/ProductPopup/ProductPopup';
+
+import About from './components/About/About';
+
 import './App.css';
 
 function App() {
@@ -23,6 +26,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <About />
       <ProductList onProductClick={handleProductClick} />
       <Footer />
       {selectedProduct && <ProductPopup product={selectedProduct} onClose={handleClosePopup} />}

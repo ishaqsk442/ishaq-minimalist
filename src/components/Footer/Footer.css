@@ -1,15 +1,61 @@
 .footer {
-  background-color: #f5f5f5; /* Background color from PDF */
-  padding: 20px;
+  background-color: #25A769; /* Background color from PDF */
+  width: 100%;
+  
+  
   text-align: center;
+  position: relative;
+  height: 118px;
+}
+@media screen and (min-width:650px) {
+    .footer{
+        width: 100%;
+    }
+}
+.footer-logo{
+    height: 76px;
 }
 
-.social-links a {
-  margin: 0 10px;
-  color: #333; /* Text color from PDF */
-  text-decoration: none;
+.social-div{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+@media screen and (min-width:650px){
+    .social-div{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+}
+.follow{
+color: #ECE14C;
+font-family: Neue Metana;
+font-size: 20px;
+font-weight: 700;
+line-height: 24.32px;
+/* text-align: left; */
+
 }
 
-.social-links a:hover {
-  text-decoration: underline;
+
+.footer-top-lines{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.footer-bottom-lines{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
 }

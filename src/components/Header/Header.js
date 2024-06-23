@@ -4,17 +4,17 @@ import './Header.css';
 import logo from '../Assets/logo.png'
 
 const Header = () => (
-    <header className="header">
-        <div className='logo-div'>
+    <div className="header">
+        <div className="logo-div">
             <img src={logo} alt="Firefly Logo"  className='logo'/>
         </div>
         <div className='para-button'>
-            <p className='para'>The choise is yours because they dont hace one.</p>
-            <button>Quick View</button>
+            <p className='para'>The choise is yours.<br></br> because they dont have one.</p>
+            <button className='btn'>Quick View</button>
 
         </div>
         
-  </header>
+  </div>
 );
 
 export default Header;

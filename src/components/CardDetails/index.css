@@ -1,0 +1,26 @@
+/* Write your code here. */
+
+.main {
+ 
+  border: 1px solid blue;
+  width: 60%;
+  margin-right: 10px;
+   
+}
+
+.image-url {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.list-cont {
+  /* width: 100%; */
+  /* border-width: 0px; */
+  list-style-type: none;
+  /* margin: 3px; */
+  display: flex;
+  flex-wrap: wrap;
+
+  /* justify-content: space-around; */
+}
