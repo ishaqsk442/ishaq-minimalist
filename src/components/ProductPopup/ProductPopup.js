@@ -27,7 +27,7 @@ const ProductPopup = ({ product, onClose }) => (
                 <hr className="hr-line"></hr>
                 <h3>Shipping Time:</h3>
                 <p>Before Raju understands that his dreams do not matter.</p>
-                <button className='card-btn'>Choose Now</button>
+                <button className='cards-btn'>Choose Now</button>
                 
             </div>
     </div>

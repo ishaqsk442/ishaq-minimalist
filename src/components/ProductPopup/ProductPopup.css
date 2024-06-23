@@ -16,19 +16,35 @@
   
 
 }
+@media (max-width:649px){
+
 .popup-content {
   display: flex;
+  flex-direction: column;
   background: #fff;
   padding: 20px;
   border-radius: 10px;
   position: relative;
-  min-height: 90%;
- 
-  
-  
-  width: 80%;
+  width: 100%;
   color: #333; /* Text color from PDF */
+  height: 80%;
+  overflow: scroll;
 }
+
+}
+@media (min-width:650px) {
+    .popup-content{
+        display: flex;
+        flex-direction: row;
+        background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+        width: 80%;
+        min-height: 90%;
+    }
+}
+
 .ul-list{
     list-style-type:none;
    
@@ -43,6 +59,24 @@
 .data{
     width: 40%;
     line-height: 15px;
+}
+@media (max-width:649px){
+    .data{
+    width: 100%;
+    line-height: 15px;
+}
+}
+.cards-btn{
+    width: 100%;
+    text-align: center;
+    background-color: #FE0000;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 600;
+line-height: 36px;
+/* text-align: left; */
+color: white;
+border: none;
 }
 .close-btn {
   position: absolute;
